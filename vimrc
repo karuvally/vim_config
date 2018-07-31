@@ -6,3 +6,4 @@ set expandtab
 set number
 set autoindent
 set nowrap
+colorscheme slate
