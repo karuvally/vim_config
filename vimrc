@@ -1,19 +1,11 @@
-" basic settings
-set tabstop=4
-set softtabstop=4
+" general stuff
+filetype plugin indent on
 syntax on
-set shiftwidth=4
-set expandtab
+set title
 set number
-set autoindent
 set nowrap
-colorscheme default 
+colorscheme default
 
-" where to place plugins
-call plug#begin('~/.vim/plugged')
-
-" list of plugins
-Plug 'tpope/vim-fugitive'
-
-" list ends here
-call plug#end()
+" filetype specific stuff
+au Filetype python source ~/.vim/vimrc.python
+au Filetype C source ~/.vim/vimrc.c
