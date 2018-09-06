@@ -7,10 +7,10 @@ set nowrap
 colorscheme default
 
 " default settings for any filetype
-source ~/.vim/scripts/vimrc.python
+source ~/.vim/scripts/python.vim
 
 " filetype specific stuff
-au Filetype C source ~/.vim/scripts/vimrc.c
+au Filetype C source ~/.vim/scripts/linux.vim
 
 " install vim-plug if not present
 if empty(glob('~/.vim/autoload/plug.vim'))
@@ -27,3 +27,5 @@ Plug 'tpope/vim-fugitive'
 
 " list ends here
 call plug#end()
+
+" other scripts
