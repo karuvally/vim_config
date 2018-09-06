@@ -4,7 +4,6 @@ syntax on
 set title
 set number
 set nowrap
-colorscheme default
 
 " default settings for any filetype
 source ~/.vim/scripts/python.vim
@@ -24,8 +23,10 @@ call plug#begin('~/.vim/plugged')
 
 " list of plugins
 Plug 'tpope/vim-fugitive'
+Plug 'gilgigilgil/anderson.vim'
 
 " list ends here
 call plug#end()
 
-" other scripts
+" stuff to do after loading plugins
+colorscheme anderson
