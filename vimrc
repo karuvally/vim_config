@@ -6,6 +6,8 @@ set number
 set nowrap
 colorscheme default
 
+" default settings for any filetype
+source ~/.vim/scripts/vimrc.python
+
 " filetype specific stuff
-au Filetype python source ~/.vim/vimrc.python
-au Filetype C source ~/.vim/vimrc.c
+au Filetype C source ~/.vim/scripts/vimrc.c
