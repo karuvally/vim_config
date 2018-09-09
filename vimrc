@@ -4,6 +4,7 @@ syntax on
 set title
 set number
 set nowrap
+let g:loaded_matchparen=1
 
 " default settings for any filetype
 source ~/.vim/scripts/python.vim
@@ -23,10 +24,10 @@ call plug#begin('~/.vim/plugged')
 
 " list of plugins
 Plug 'tpope/vim-fugitive'
-Plug 'gilgigilgil/anderson.vim'
+Plug 'flazz/vim-colorschemes'
 
 " list ends here
 call plug#end()
 
 " stuff to do after loading plugins
-colorscheme anderson
+colorscheme crayon
