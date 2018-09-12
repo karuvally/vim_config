@@ -4,6 +4,7 @@ syntax on
 set title
 set number
 set nowrap
+set t_Co=256
 let g:loaded_matchparen=1
 
 " default settings for any filetype
@@ -30,4 +31,4 @@ Plug 'flazz/vim-colorschemes'
 call plug#end()
 
 " stuff to do after loading plugins
-colorscheme crayon
+colorscheme alduin 
