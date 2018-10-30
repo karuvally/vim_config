@@ -11,7 +11,8 @@ let g:loaded_matchparen=1
 source ~/.vim/scripts/python.vim
 
 " filetype specific stuff
-au Filetype C source ~/.vim/scripts/linux.vim
+au Filetype c source ~/.vim/scripts/linux.vim
+au Filetype html source ~/.vim/scripts/html.vim
 
 " install vim-plug if not present
 if empty(glob('~/.vim/autoload/plug.vim'))
