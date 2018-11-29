@@ -35,5 +35,17 @@ call plug#end()
 " stuff to do after loading plugins
 colorscheme alduin 
 
-" lightline stuff
+" lightline hacks 
 set laststatus=2
+
+" configure lightline
+let g:lightline = {
+\'colorscheme': 'jellybeans',
+\'active': {
+\   'left': [ [ 'mode', 'paste' ],
+\    ['gitbranch', 'readonly', 'filename', 'modified' ] ]
+\   },
+\'component_function': {
+\   'gitbranch': 'fugitive#head'
+\   },
+\}
