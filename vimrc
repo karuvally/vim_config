@@ -7,7 +7,7 @@ set nowrap
 set t_Co=256
 let g:loaded_matchparen=1
 
-" default settings for any filetype
+" default settings for display files
 source ~/.vim/scripts/python.vim
 
 " filetype specific stuff
