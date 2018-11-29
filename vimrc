@@ -27,9 +27,13 @@ call plug#begin('~/.vim/plugged')
 " list of plugins
 Plug 'tpope/vim-fugitive'
 Plug 'flazz/vim-colorschemes'
+Plug 'itchyny/lightline.vim'
 
 " list ends here
 call plug#end()
 
 " stuff to do after loading plugins
 colorscheme alduin 
+
+" lightline stuff
+set laststatus=2
