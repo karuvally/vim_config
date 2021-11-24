@@ -2,7 +2,7 @@
 Minimal configuration for a productive vim environment
 
 ## Requirements
-[NeoVim](https://github.com/neovim/neovim)
+[NeoVim](https://github.com/neovim/neovim)  
 [vim-plug](https://github.com/junegunn/vim-plug)
 
 ## Installation
