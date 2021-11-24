@@ -1,3 +1,5 @@
-# vim_config
-A really basic vim configuration.  
-It lets you do basic python programming and stuff :)
+# Vim Configuration
+Minimal configuration for a productive vim environment
+
+## Requirements
+[NeoVim](https://github.com/neovim/neovim)
