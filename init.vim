@@ -1,12 +1,20 @@
 " Basic settings
-set tabstop=4
-set softtabstop=4
-set shiftwidth=4
 set expandtab
-set autoindent
 set number
 set nowrap 
 syntax on
+
+" Standard Indentation 
+set autoindent
+set expandtab
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+
+" Filetype specific indentation
+augroup indentation
+    autocmd FileType javascript,html,css setlocal tabstop=2 softtabstop=2 shiftwidth=2
+augroup END
 
 " Set colors
 colorscheme PaperColor
