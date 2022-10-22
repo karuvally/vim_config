@@ -16,18 +16,19 @@ augroup indentation
     autocmd FileType javascript,html,css setlocal tabstop=2 softtabstop=2 shiftwidth=2
 augroup END
 
-" Set colors
-colorscheme PaperColor
-hi normal ctermbg=none 
-
 " Plugins
 call plug#begin("~/.config/nvim/autoload/plugged")
+	Plug 'NLKNguyen/papercolor-theme'
     Plug 'junegunn/fzf'
     Plug 'alvan/vim-closetag'
     Plug 'scrooloose/NERDTree'
     Plug 'pangloss/vim-javascript'
     Plug 'tpope/vim-fugitive'
 call plug#end()
+
+" Set colors
+hi normal ctermbg=none
+colorscheme PaperColor
 
 " Shortcuts
 nmap <C-P> :FZF<CR>
